@@ -1,0 +1,30 @@
+package controlStructure;
+
+import java.util.Scanner;
+
+public class IfElseStatement {
+	
+	public static void main(String[] args) {
+		
+		int x ;
+		int y ;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the value of x");
+		x = sc.nextInt();
+		
+		System.out.println("Enter the value of y");
+		y= sc.nextInt();
+		
+		if (x <y) {
+			System.out.println("The statement is true, x less than y");
+			
+		}
+		else {
+			System.out.println("The statement is wrong, x is greater than y");
+			
+		}
+	}
+
+}
